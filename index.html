@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <h1>🌐Browser Info</h1>
+        </div>
+        <div class="time" id="current-time">00:00:00</div>
+      </header>
+      
+      <main>
+        <section class="info-card">
+          <h2>Device & Browser</h2>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-label">User Agent</div>
+              <div class="info-value" id="user-agent">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Platform</div>
+              <div class="info-value" id="platform">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Vendor</div>
+              <div class="info-value" id="vendor">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Cookies Enabled</div>
+              <div class="info-value" id="cookies-enabled">Loading...</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="info-card">
+          <h2>Window & Screen</h2>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-label">Window Size</div>
+              <div class="info-value" id="window-size">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Screen Resolution</div>
+              <div class="info-value" id="screen-resolution">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Color Depth</div>
+              <div class="info-value" id="color-depth">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Device Pixel Ratio</div>
+              <div class="info-value" id="pixel-ratio">Loading...</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="info-card">
+          <h2>Location & Language</h2>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-label">Language</div>
+              <div class="info-value" id="language">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Time Zone</div>
+              <div class="info-value" id="timezone">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Do Not Track</div>
+              <div class="info-value" id="do-not-track">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Online Status</div>
+              <div class="info-value" id="online-status">Loading...</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="info-card">
+          <h2>Features & Capabilities</h2>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-label">Touch Support</div>
+              <div class="info-value" id="touch-support">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">WebGL Support</div>
+              <div class="info-value" id="webgl-support">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Canvas Support</div>
+              <div class="info-value" id="canvas-support">Loading...</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Local Storage</div>
+              <div class="info-value" id="local-storage">Loading...</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Created with <span class="heart">❤</span> by audriuxsmik </p>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

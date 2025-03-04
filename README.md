@@ -6,7 +6,7 @@
 
 Simple browser info website that shows all the info that a website can get.
 
-![alt text]([https://raw.githubusercontent.com/audriuxsmik/Browser-Info/main/preview.png](https://github.com/audriuxsmik/Browser-Info/blob/main/preview.png?raw=true))
+![alt text](https://github.com/audriuxsmik/Browser-Info/blob/main/preview.png)
 
 ## Features
 
